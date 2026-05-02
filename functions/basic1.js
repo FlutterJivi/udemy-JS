@@ -22,3 +22,12 @@ const greet3 = (name) => "Hello " + name;
 console.log(greet3("john"));
 
 const square = (n) => n * 2;
+
+const isEven = n => n % 2 === 0 ? "True" : "False"
+console.log(isEven(10));
+
+const isOdd = num => num % 2 !== 0 ? "True" : "False"
+console.log(isOdd(10));
+
+const power = (base, exponent = 2) => base ** exponent
+console.log(power(10,3));
